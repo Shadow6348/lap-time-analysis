@@ -1,5 +1,8 @@
 # Lap Time Analysis – Braking & Throttle Behavior
 
+> A motorsport telemetry analysis and visualization tool for comparing driver inputs and lap time deltas.
+
+
 This project analyzes and visualizes lap telemetry data to understand **where time is gained or lost** between a fast lap and a slower lap.
 
 The focus is on **driver inputs** (brake and throttle) and how they correlate with **relative lap time delta**, broken down into equal lap segments.
