@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 ---
 
-## Running the Analyzer
+## Usage
 
 From the project root:
 
@@ -123,6 +123,31 @@ Hover over any segment to inspect values across all plots simultaneously.
 - Gear usage analysis
 - Export plots as images
 - Save per-segment statistics to CSV
+
+---
+
+## Motivation
+
+This project was built to replicate that workflow using telemetry data,
+highlighting where braking and throttle behavior contribute to time loss or
+gain, with an emphasis on visualization and decision support rather than
+full vehicle physics modeling.
+
+---
+
+## Example Insight
+
+In the analyzed dataset, the largest time loss occurred in **segment 7**, where
+the slower lap showed higher brake usage and reduced throttle application
+compared to the faster lap. This behavior is consistent with an inefficient
+corner entry-to-exit transition and mirrors real-world performance engineering
+analysis.
+
+---
+
+## Example Output
+
+![Telemetry Comparison](screenshot.png)
 
 ---
 
